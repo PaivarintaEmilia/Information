@@ -6,52 +6,66 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="stylesheet.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Raleway:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Nimi & yhteystiedot -->
     <header id="header">
-        <div class="name left">
+        <div class="name">
             <h1>Emilia</h1>
             <h1>Päivärinta</h1>
         </div>
-        <div class="contact-right left">
-            <h2>eemilia.paivarinta@gmail.com</h2>
+        <div class="contact-right">
+            <h2><a href="mailto:eemilia.paivarinta@gmail.com">eemilia.paivarinta@gmail.com</a></h2>
             <h2><i class="fa fa-map-marker"></i>Spain</h2>
             <h2>+34*********</h2>
         </div>
     </header>
+    <div id="tiedot">
     <!-- Kuva & tietoa minusta -->
+        <div id="profile">
+            <img src="https://images.unsplash.com/photo-1518534543674-5933a2307dca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80" alt="profile photo" class="profile-photo">
+            <p class="about-me">text about me.... Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis sodales consequat. Nulla facilisi. Etiam sit amet lectus auctor sem pharetra condimentum. Aliquam vel leo vel metus condimentum viverra nec vitae dui. Cras feugiat auctor ultricies. Morbi sit amet porta elit. Proin venenatis hendrerit nisi, nec dapibus diam feugiat id.</p>
+        </div>
+        <!-- Kokeillaan flexboxia, kolme laatikkoa missä some --> 
 
+        <section class="social">
+            <div class="gallery">
+                <a href="https://www.linkedin.com/in/emilia-p%C3%A4iv%C3%A4rinta-8413a8152/" target="_blank" rel="noopener noreferrer">
+                <img src="C:\Users\Emilia\Documents\PROJEKTIT\Information\LinkedIn.png" alt="LinkedIn" class="lin-photo contact-photo">
+                </a>
+                    <!-- OVERLAY -->
+                    <div class="overlay">
+                        <a href="https://github.com/PaivarintaEmilia" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/PaivarintaEmilia/Information/main/LinkedInprofile.png" class="text"></a>
+                    </div>
+                <a href="https://www.linkedin.com/in/emilia-p%C3%A4iv%C3%A4rinta-8413a8152/" target="_blank" rel="noopener noreferrer" class="contact-txt"></a>
+            </div>
 
-    <div id="profile">
-        <img src="#" alt="profile photo" class="profile-photo">
-        <p class="about-me">text about me.... Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis sodales consequat. Nulla facilisi. Etiam sit amet lectus auctor sem pharetra condimentum. Aliquam vel leo vel metus condimentum viverra nec vitae dui. Cras feugiat auctor ultricies. Morbi sit amet porta elit. Proin venenatis hendrerit nisi, nec dapibus diam feugiat id.</p>
+            <div class="gallery">
+                <a href="https://github.com/PaivarintaEmilia" target="_blank" rel="noopener noreferrer">
+                <img src="C:\Users\Emilia\Documents\PROJEKTIT\Information\GitHub.png" alt="GitHub" class="git-photo contact-photo">
+                </a>
+                    <!-- OVERLAY -->
+                    <div class="overlay">
+                        <a href="https://github.com/PaivarintaEmilia" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/PaivarintaEmilia/Information/main/GitHubprofile.jpeg" class="text"></a>
+                    </div>
+                <a href="https://github.com/PaivarintaEmilia" class="contact-txt" target="_blank" rel="noopener noreferrer"></a>
+            </div>
+
+            <div class="gallery">
+                <a href="https://www.instagram.com/paivarintaemilia/" target="_blank" rel="noopener noreferrer">
+                    <img src="C:\Users\Emilia\Documents\PROJEKTIT\Information\Instagram.png" alt="Insta" class="insta-photo contact-photo">
+                </a>
+                    <!-- OVERLAY -->
+                    <div class="overlay">
+                        <a href="https://github.com/PaivarintaEmilia" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/PaivarintaEmilia/Information/main/Instagramprofile.jpeg" class="text"></a>
+                    </div>
+                <a href="https://www.instagram.com/paivarintaemilia/" class="contact-txt" target="_blank" rel="noopener noreferrer"></a>
+            </div>
+        </section>
     </div>
-    <!-- Kokeillaan flexboxia, kolme laatikkoa missä some --> 
-
-    <section id="social">
-        <div class="gallery">
-            <a href="#">
-            <img src="C:\Users\Emilia\Documents\PROJEKTIT\Information\LinkedIn.png" alt="LinkedIn" class="contact-photo">
-            </a>
-            <a href="#" class="contact-txt">Emilia Päivärinta</a>
-        </div>
-
-        <div class="gallery">
-            <a href="#">
-              <img src="C:\Users\Emilia\Documents\PROJEKTIT\Information\GitHub.png" alt="GitHub" class="git-photo contact-photo">
-            </a>
-            <a href="#" class="contact-txt">@PaivarintaEmilia</a>
-        </div>
-
-        <div class="gallery">
-            <a href="#">
-              <img src="C:\Users\Emilia\Documents\PROJEKTIT\Information\Instagram.png" alt="Insta" class="contact-photo">
-            </a>
-            <a href="#" class="contact-txt">@paivarintaemilia</a>
-        </div>
-    </section>
-
     <!-- Lopetus tähän -->
     <footer id="footer">
         <img src="#" alt="random photo" class="footer-photo">
